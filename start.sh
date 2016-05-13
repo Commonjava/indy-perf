@@ -1,9 +1,9 @@
 #!/bin/bash
 
-JMETER=$HOME/apps/jmeter/current/bin/jmeter
-TEST=${JMETER_TEST:-$PWD/tests/build-simulation-existing-5builders.jmx}
+JMETER=${JMETER:-$HOME/apps/jmeter/current/bin/jmeter}
+TEST=${JMETER_TEST:-$PWD/tests/build-simulation-existing.jmx}
 LOG=${JMETER_LOG:-"$(basename $TEST).log"}
-PROPS=${JMETER_PROPS:-$PWD/inputs/properties/localhost.properties}
+PROPS=${JMETER_PROPS:-$PWD/inputs/properties/local5.properties}
 
 rm -rf $PWD/test-downloads
 rm $LOG

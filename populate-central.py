@@ -11,6 +11,7 @@ if len(sys.argv) < 2:
 	print "Usage: %s <output-dir> [<repo-url>]" % sys.argv[0]
 	exit(1)
 
+builds_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'inputs/build-data')
 repo_url = 'http://repo.maven.apache.org/maven2/'
 out_dir = sys.argv[1]
 
@@ -21,7 +22,7 @@ def download(path):
 	outfile = os.path.join(out_dir, path)
 	if os.path.isfile(outfile):
 		return
-	
+
 	outdir = os.path.dirname(outfile)
 	if not os.path.isdir(outdir):
 		os.makedirs(outdir)
@@ -36,7 +37,7 @@ if len(sys.argv) > 2:
 		repo_url += '/'
 	print "Downloading from: %s" % repo_url
 
-build_files = glob.glob('inputs/build-data/*.json')
+build_files = glob.glob(os.path.join(builds_dir, '*.json')
 
 paths = set()
 for build_file in build_files:
