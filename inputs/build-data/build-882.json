@@ -1,0 +1,16 @@
+{
+  "downloads": [
+    "org/apache/maven/plugins/maven-enforcer-plugin/1.0-beta-1/maven-enforcer-plugin-1.0-beta-1.pom.sha1", 
+    "org/apache/maven/plugins/maven-enforcer-plugin/1.0-beta-1/maven-enforcer-plugin-1.0-beta-1.jar.sha1", 
+    "org/apache/maven/enforcer/enforcer/1.0-beta-1/enforcer-1.0-beta-1.pom.sha1", 
+    "org/jboss/jboss-parent/6-beta-1/jboss-parent-6-beta-1.pom.sha1", 
+    "org/jboss/jboss-parent/6-beta-1/jboss-parent-6-beta-1.pom", 
+    "org/apache/maven/enforcer/enforcer/1.0-beta-1/enforcer-1.0-beta-1.pom", 
+    "org/apache/maven/plugins/maven-enforcer-plugin/1.0-beta-1/maven-enforcer-plugin-1.0-beta-1.jar", 
+    "org/apache/maven/plugins/maven-enforcer-plugin/1.0-beta-1/maven-enforcer-plugin-1.0-beta-1.pom", 
+    "org/apache/maven/plugins/maven-source-plugin/2.1.2/maven-source-plugin-2.1.2.pom"
+  ], 
+  "uploadCoords": [
+    "com.diable.fagger.bebed.lunata:firm-clap:9"
+  ]
+}

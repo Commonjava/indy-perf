@@ -1,0 +1,17 @@
+{
+  "downloads": [
+    "org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar.sha1", 
+    "org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom.sha1", 
+    "org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom.sha1", 
+    "org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar.sha1", 
+    "org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom.sha1", 
+    "org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar", 
+    "org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom", 
+    "org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom", 
+    "org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar", 
+    "org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom"
+  ], 
+  "uploadCoords": [
+    "org.lazies.sizing:anally-flodge-azoch:3.7"
+  ]
+}

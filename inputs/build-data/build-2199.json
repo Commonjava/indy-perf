@@ -1,0 +1,15 @@
+{
+  "downloads": [
+    "org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.jar", 
+    "org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.jar.sha1", 
+    "org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.pom", 
+    "org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.pom.sha1", 
+    "org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom.sha1", 
+    "org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.pom.sha1", 
+    "org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom", 
+    "org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.pom"
+  ], 
+  "uploadCoords": [
+    "net.resume.copalm:ilima-ethiop-wahabi-lexica:9.1"
+  ]
+}

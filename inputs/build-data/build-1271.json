@@ -1,0 +1,36 @@
+{
+  "downloads": [
+    "org/apache/maven/enforcer/enforcer/1.0-beta-1/enforcer-1.0-beta-1.pom.sha1", 
+    "org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.jar.sha1", 
+    "org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.pom.sha1", 
+    "org/apache/maven/plugins/maven-compiler-plugin/2.3.1/maven-compiler-plugin-2.3.1.jar.sha1", 
+    "org/apache/maven/plugins/maven-compiler-plugin/2.3.1/maven-compiler-plugin-2.3.1.pom.sha1", 
+    "org/apache/maven/plugins/maven-enforcer-plugin/1.0-beta-1/maven-enforcer-plugin-1.0-beta-1.jar.sha1", 
+    "org/apache/maven/plugins/maven-enforcer-plugin/1.0-beta-1/maven-enforcer-plugin-1.0-beta-1.pom.sha1", 
+    "org/apache/maven/plugins/maven-plugins/18/maven-plugins-18.pom.sha1", 
+    "org/apache/maven/plugins/maven-resources-plugin/2.4.3/maven-resources-plugin-2.4.3.jar.sha1", 
+    "org/apache/maven/plugins/maven-resources-plugin/2.4.3/maven-resources-plugin-2.4.3.pom.sha1", 
+    "org/apache/maven/plugins/maven-source-plugin/2.1.2/maven-source-plugin-2.1.2.jar.sha1", 
+    "org/apache/maven/plugins/maven-source-plugin/2.1.2/maven-source-plugin-2.1.2.pom.sha1", 
+    "org/jboss/jboss-parent/6-beta-1/jboss-parent-6-beta-1.pom.sha1", 
+    "org/jboss/maven/plugins/maven-injection-plugin/1.0.2/maven-injection-plugin-1.0.2.pom.sha1", 
+    "org/apache/maven/enforcer/enforcer/1.0-beta-1/enforcer-1.0-beta-1.pom", 
+    "org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.jar", 
+    "org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.pom", 
+    "org/apache/maven/plugins/maven-compiler-plugin/2.3.1/maven-compiler-plugin-2.3.1.jar", 
+    "org/apache/maven/plugins/maven-compiler-plugin/2.3.1/maven-compiler-plugin-2.3.1.pom", 
+    "org/apache/maven/plugins/maven-enforcer-plugin/1.0-beta-1/maven-enforcer-plugin-1.0-beta-1.jar", 
+    "org/apache/maven/plugins/maven-enforcer-plugin/1.0-beta-1/maven-enforcer-plugin-1.0-beta-1.pom", 
+    "org/apache/maven/plugins/maven-plugins/18/maven-plugins-18.pom", 
+    "org/apache/maven/plugins/maven-resources-plugin/2.4.3/maven-resources-plugin-2.4.3.jar", 
+    "org/apache/maven/plugins/maven-resources-plugin/2.4.3/maven-resources-plugin-2.4.3.pom", 
+    "org/apache/maven/plugins/maven-source-plugin/2.1.2/maven-source-plugin-2.1.2.jar", 
+    "org/apache/maven/plugins/maven-source-plugin/2.1.2/maven-source-plugin-2.1.2.pom", 
+    "org/jboss/jboss-parent/5-beta-1/jboss-parent-5-beta-1.pom", 
+    "org/jboss/jboss-parent/6-beta-1/jboss-parent-6-beta-1.pom", 
+    "org/jboss/maven/plugins/maven-injection-plugin/1.0.2/maven-injection-plugin-1.0.2.pom"
+  ], 
+  "uploadCoords": [
+    "org.kyats.everts.vases.dwale:ihs-tutty-genius:7.9.6"
+  ]
+}

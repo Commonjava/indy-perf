@@ -1,0 +1,13 @@
+{
+  "downloads": [
+    "org/apache/maven/enforcer/enforcer/1.0-beta-1/enforcer-1.0-beta-1.pom.sha1", 
+    "org/apache/maven/plugins/maven-enforcer-plugin/1.0-beta-1/maven-enforcer-plugin-1.0-beta-1.pom.sha1", 
+    "org/jboss/jboss-parent/6-beta-1/jboss-parent-6-beta-1.pom.sha1", 
+    "org/apache/maven/enforcer/enforcer/1.0-beta-1/enforcer-1.0-beta-1.pom", 
+    "org/apache/maven/plugins/maven-enforcer-plugin/1.0-beta-1/maven-enforcer-plugin-1.0-beta-1.pom", 
+    "org/jboss/jboss-parent/6-beta-1/jboss-parent-6-beta-1.pom"
+  ], 
+  "uploadCoords": [
+    "org.runby:dregs:7.5"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "downloads": [
+    "org/jboss/bom/eap/jboss-javaee-6.0-with-hibernate/6.3.2.GA/jboss-javaee-6.0-with-hibernate-6.3.2.GA.pom", 
+    "org/jboss/bom/eap/jboss-javaee-6.0-with-tools/6.3.2.GA/jboss-javaee-6.0-with-tools-6.3.2.GA.pom"
+  ], 
+  "uploadCoords": [
+    "io.burga.anywhy.kanga.salp.hundi:verver-bolled-pitier:6"
+  ]
+}
