@@ -7,45 +7,39 @@ import glob
 import json
 
 
-if len(sys.argv) < 2:
-	print "Usage: %s <output-dir> [<repo-url>]" % sys.argv[0]
-	exit(1)
+# if len(sys.argv) < 2:
+#   print "Usage: %s <output-dir> [<repo-url>]" % sys.argv[0]
+#   exit(1)
 
 builds_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'inputs/build-data')
-repo_url = 'http://repo.maven.apache.org/maven2/'
-out_dir = sys.argv[1]
+#repo_url = 'http://repo.maven.apache.org/maven2/'
+repo_url='http://localhost:8080/api/remote/central/'
+#out_dir = sys.argv[1]
 
 def download(path):
-	url = "%s%s" % (repo_url, path)
-	print url
+    url = "%s%s" % (repo_url, path)
+    print url
+    urllib.urlretrieve(url, '/dev/null')
 
-	outfile = os.path.join(out_dir, path)
-	if os.path.isfile(outfile):
-		return
 
-	outdir = os.path.dirname(outfile)
-	if not os.path.isdir(outdir):
-		os.makedirs(outdir)
+#print "Storing downloads in: %s" % out_dir
 
-	urllib.urlretrieve(url, outfile)
+if len(sys.argv) > 1:
+    repo_url = sys.argv[1]
+    if not repo_url.endswith('/'):
+        repo_url += '/'
+    print "Populating: %s" % repo_url
 
-print "Storing downloads in: %s" % out_dir
+build_files = glob.glob(os.path.join(builds_dir, '*.json'))
 
-if len(sys.argv) > 2:
-	repo_url = sys.argv[2]
-	if not repo_url.endswith('/'):
-		repo_url += '/'
-	print "Downloading from: %s" % repo_url
+paths=[]
 
-build_files = glob.glob(os.path.join(builds_dir, '*.json')
-
-paths = set()
 for build_file in build_files:
-	with open(build_file) as f:
-		build = json.load(f)
-		for path in build['downloads']:
-			if path not in paths:
-				download(path)
-				paths.add(path)
+    with open(build_file) as f:
+        build = json.load(f)
+        for path in build['downloads']:
+            if path not in paths:
+                download(path)
+                paths.append(path)
 
-print "Downloaded %s files to: %s" % (len(paths), out_dir)
+print "Populated %s files in: %s" % (len(paths), repo_url)
