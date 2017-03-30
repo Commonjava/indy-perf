@@ -117,7 +117,7 @@ def rand = new Random();
 def buildNumber = Math.abs(rand.nextInt()) % 2386
 def inputDir = System.getProperty(&quot;inputDir&quot;)
 
-def counter=0
+def counter=1
 def build = new JsonSlurper().parse(new File(&quot;${inputDir}/build-data/build-${buildNumber}.json&quot;))
 
 build.downloads.each{path-&gt;
@@ -125,7 +125,7 @@ build.downloads.each{path-&gt;
   counter++
 }
 
-counter=0
+counter=1
 build.uploadCoords.each{coord-&gt;
   vars.put(&quot;upload_${counter}&quot;, coord)
   counter++
